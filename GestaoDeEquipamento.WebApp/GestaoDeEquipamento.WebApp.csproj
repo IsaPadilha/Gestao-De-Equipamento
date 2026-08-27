@@ -9,6 +9,10 @@
   <ItemGroup>
     <Content Remove="Compartilhado\Apresentacao\Views\Index.cshtml" />
     <Content Remove="Compartilhado\Apresentacao\Views\_Layout.cshtml" />
+    <Content Remove="Modulos\Equipamentos\Apresentacao\Views\Cadastrar.cshtml" />
+    <Content Remove="Modulos\Equipamentos\Apresentacao\Views\Editar.cshtml" />
+    <Content Remove="Modulos\Equipamentos\Apresentacao\Views\Excluir.cshtml" />
+    <Content Remove="Modulos\Equipamentos\Apresentacao\Views\Listar.cshtml" />
     <Content Remove="Modulos\Fabricantes\Apresentacao\Views\Cadastrar.cshtml" />
     <Content Remove="Modulos\Fabricantes\Apresentacao\Views\Excluir.cshtml" />
     <Content Remove="Modulos\Fabricantes\Apresentacao\Views\Listar.cshtml" />
@@ -18,6 +22,10 @@
   <ItemGroup>
     <Compile Include="Compartilhado\Apresentacao\Views\Index.cshtml" />
     <Compile Include="Compartilhado\Apresentacao\Views\_Layout.cshtml" />
+    <Compile Include="Modulos\Equipamentos\Apresentacao\Views\Cadastrar.cshtml" />
+    <Compile Include="Modulos\Equipamentos\Apresentacao\Views\Editar.cshtml" />
+    <Compile Include="Modulos\Equipamentos\Apresentacao\Views\Excluir.cshtml" />
+    <Compile Include="Modulos\Equipamentos\Apresentacao\Views\Listar.cshtml" />
     <Compile Include="Modulos\Fabricantes\Apresentacao\Views\Cadastrar.cshtml" />
     <Compile Include="Modulos\Fabricantes\Apresentacao\Views\Editar.csthml" />
     <Compile Include="Modulos\Fabricantes\Apresentacao\Views\Excluir.cshtml" />
