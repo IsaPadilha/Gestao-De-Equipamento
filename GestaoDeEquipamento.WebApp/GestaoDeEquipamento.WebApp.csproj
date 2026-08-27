@@ -6,4 +6,22 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="Compartilhado\Apresentacao\Views\Index.cshtml" />
+    <Content Remove="Compartilhado\Apresentacao\Views\_Layout.cshtml" />
+    <Content Remove="_ViewImports.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Compartilhado\Apresentacao\Views\Index.cshtml" />
+    <Compile Include="Compartilhado\Apresentacao\Views\_Layout.cshtml" />
+    <Compile Include="_ViewImports.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Compartilhado\Dominio\" />
+    <Folder Include="Compartilhado\Infraestrutura\" />
+    <Folder Include="Compartilhado\Infraestrutura\Arquivos\" />
+  </ItemGroup>
+
 </Project>
