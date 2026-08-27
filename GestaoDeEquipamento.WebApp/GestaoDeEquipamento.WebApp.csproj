@@ -22,6 +22,7 @@
     <Compile Include="Modulos\Fabricantes\Apresentacao\Views\Editar.csthml" />
     <Compile Include="Modulos\Fabricantes\Apresentacao\Views\Excluir.cshtml" />
     <Compile Include="Modulos\Fabricantes\Apresentacao\Views\Listar.cshtml" />
+    <Compile Include="README.md" />
     <Compile Include="_ViewImports.cshtml" />
   </ItemGroup>
 
