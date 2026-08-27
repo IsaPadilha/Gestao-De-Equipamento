@@ -9,12 +9,19 @@
   <ItemGroup>
     <Content Remove="Compartilhado\Apresentacao\Views\Index.cshtml" />
     <Content Remove="Compartilhado\Apresentacao\Views\_Layout.cshtml" />
+    <Content Remove="Modulos\Fabricantes\Apresentacao\Views\Cadastrar.cshtml" />
+    <Content Remove="Modulos\Fabricantes\Apresentacao\Views\Excluir.cshtml" />
+    <Content Remove="Modulos\Fabricantes\Apresentacao\Views\Listar.cshtml" />
     <Content Remove="_ViewImports.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
     <Compile Include="Compartilhado\Apresentacao\Views\Index.cshtml" />
     <Compile Include="Compartilhado\Apresentacao\Views\_Layout.cshtml" />
+    <Compile Include="Modulos\Fabricantes\Apresentacao\Views\Cadastrar.cshtml" />
+    <Compile Include="Modulos\Fabricantes\Apresentacao\Views\Editar.csthml" />
+    <Compile Include="Modulos\Fabricantes\Apresentacao\Views\Excluir.cshtml" />
+    <Compile Include="Modulos\Fabricantes\Apresentacao\Views\Listar.cshtml" />
     <Compile Include="_ViewImports.cshtml" />
   </ItemGroup>
 
@@ -22,6 +29,8 @@
     <Folder Include="Compartilhado\Dominio\" />
     <Folder Include="Compartilhado\Infraestrutura\" />
     <Folder Include="Compartilhado\Infraestrutura\Arquivos\" />
+    <Folder Include="Modulos\Fabricantes\Dominio\" />
+    <Folder Include="Modulos\Fabricantes\Infraestrutura\" />
   </ItemGroup>
 
 </Project>
