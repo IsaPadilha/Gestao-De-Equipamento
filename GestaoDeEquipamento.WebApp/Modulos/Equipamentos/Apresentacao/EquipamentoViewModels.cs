@@ -15,8 +15,8 @@ public record SelecionarFabricanteViewModel(int Id, string Nome);
 public record CadastrarEquipamentoViewModel(
 
     [Required(ErrorMessage = "O campo \"Nome\" é obrigatório.")]
-    [StringLength(100, MinimumLength = 6,
-        ErrorMessage = "O campo \"Nome\" deve conter entre 6 e 100 caracteres.")]
+    [StringLength(100, MinimumLength = 3,
+        ErrorMessage = "O campo \"Nome\" deve conter entre 3 e 100 caracteres.")]
     string? Nome,
 
     [Required(ErrorMessage = "O campo \"Preço de aquisição\" é obrigatório.")]
@@ -38,8 +38,8 @@ public record EditarEquipamentoViewModel(
     int Id,
 
     [Required(ErrorMessage = "O campo \"Nome\" é obrigatório.")]
-    [StringLength(100, MinimumLength = 6,
-        ErrorMessage = "O campo \"Nome\" deve conter entre 6 e 100 caracteres.")]
+    [StringLength(100, MinimumLength = 3,
+        ErrorMessage = "O campo \"Nome\" deve conter entre 3 e 100 caracteres.")]
     string? Nome,
 
     [Required(ErrorMessage = "O campo \"Preço de aquisição\" é obrigatório.")]
