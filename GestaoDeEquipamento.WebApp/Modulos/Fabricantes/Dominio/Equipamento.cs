@@ -4,6 +4,7 @@ namespace GestaoDeEquipamento.WebApp.Modulos.Equipamentos.Dominio;
 
 public sealed class Equipamento : EntidadeBase
 {
+    public int Id { get; set; }
     public string Nome { get; set; } = string.Empty;
     public decimal PrecoAquisicao { get; set; }
     public DateTime DataFabricacao { get; set; }
