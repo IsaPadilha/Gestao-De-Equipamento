@@ -19,3 +19,63 @@ build_property.MSBuildProjectDirectory = C:\Academia C#\Gestao-De-Equipamento\Ge
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
+
+[C:/Academia C\#/Gestao-De-Equipamento/GestaoDeEquipamento.WebApp/Compartilhado/Apresentacao/Views/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcGFydGlsaGFkb1xBcHJlc2VudGFjYW9cVmlld3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Academia C\#/Gestao-De-Equipamento/GestaoDeEquipamento.WebApp/Compartilhado/Apresentacao/Views/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcGFydGlsaGFkb1xBcHJlc2VudGFjYW9cVmlld3NcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Academia C\#/Gestao-De-Equipamento/GestaoDeEquipamento.WebApp/Modulos/Chamados/Apresentacao/Views/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxvc1xDaGFtYWRvc1xBcHJlc2VudGFjYW9cVmlld3NcQ2FkYXN0cmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Academia C\#/Gestao-De-Equipamento/GestaoDeEquipamento.WebApp/Modulos/Chamados/Apresentacao/Views/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxvc1xDaGFtYWRvc1xBcHJlc2VudGFjYW9cVmlld3NcRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Academia C\#/Gestao-De-Equipamento/GestaoDeEquipamento.WebApp/Modulos/Chamados/Apresentacao/Views/Excluir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxvc1xDaGFtYWRvc1xBcHJlc2VudGFjYW9cVmlld3NcRXhjbHVpci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Academia C\#/Gestao-De-Equipamento/GestaoDeEquipamento.WebApp/Modulos/Chamados/Apresentacao/Views/Listar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxvc1xDaGFtYWRvc1xBcHJlc2VudGFjYW9cVmlld3NcTGlzdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Academia C\#/Gestao-De-Equipamento/GestaoDeEquipamento.WebApp/Modulos/Equipamentos/Apresentacao/Views/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxvc1xFcXVpcGFtZW50b3NcQXByZXNlbnRhY2FvXFZpZXdzXENhZGFzdHJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Academia C\#/Gestao-De-Equipamento/GestaoDeEquipamento.WebApp/Modulos/Equipamentos/Apresentacao/Views/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxvc1xFcXVpcGFtZW50b3NcQXByZXNlbnRhY2FvXFZpZXdzXEVkaXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Academia C\#/Gestao-De-Equipamento/GestaoDeEquipamento.WebApp/Modulos/Equipamentos/Apresentacao/Views/Excluir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxvc1xFcXVpcGFtZW50b3NcQXByZXNlbnRhY2FvXFZpZXdzXEV4Y2x1aXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Academia C\#/Gestao-De-Equipamento/GestaoDeEquipamento.WebApp/Modulos/Equipamentos/Apresentacao/Views/Listar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxvc1xFcXVpcGFtZW50b3NcQXByZXNlbnRhY2FvXFZpZXdzXExpc3Rhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Academia C\#/Gestao-De-Equipamento/GestaoDeEquipamento.WebApp/Modulos/Fabricantes/Apresentacao/Views/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxvc1xGYWJyaWNhbnRlc1xBcHJlc2VudGFjYW9cVmlld3NcQ2FkYXN0cmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Academia C\#/Gestao-De-Equipamento/GestaoDeEquipamento.WebApp/Modulos/Fabricantes/Apresentacao/Views/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxvc1xGYWJyaWNhbnRlc1xBcHJlc2VudGFjYW9cVmlld3NcRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Academia C\#/Gestao-De-Equipamento/GestaoDeEquipamento.WebApp/Modulos/Fabricantes/Apresentacao/Views/Excluir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxvc1xGYWJyaWNhbnRlc1xBcHJlc2VudGFjYW9cVmlld3NcRXhjbHVpci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Academia C\#/Gestao-De-Equipamento/GestaoDeEquipamento.WebApp/Modulos/Fabricantes/Apresentacao/Views/Listar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxvc1xGYWJyaWNhbnRlc1xBcHJlc2VudGFjYW9cVmlld3NcTGlzdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Academia C\#/Gestao-De-Equipamento/GestaoDeEquipamento.WebApp/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

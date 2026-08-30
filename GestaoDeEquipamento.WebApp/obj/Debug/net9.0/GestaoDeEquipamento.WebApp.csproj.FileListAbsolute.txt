@@ -1,0 +1,9 @@
+C:\Academia C#\Gestao-De-Equipamento\GestaoDeEquipamento.WebApp\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Academia C#\Gestao-De-Equipamento\GestaoDeEquipamento.WebApp\obj\Debug\net9.0\GestaoDeEquipamento.WebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Academia C#\Gestao-De-Equipamento\GestaoDeEquipamento.WebApp\obj\Debug\net9.0\GestaoDeEquipamento.WebApp.AssemblyInfoInputs.cache
+C:\Academia C#\Gestao-De-Equipamento\GestaoDeEquipamento.WebApp\obj\Debug\net9.0\GestaoDeEquipamento.WebApp.AssemblyInfo.cs
+C:\Academia C#\Gestao-De-Equipamento\GestaoDeEquipamento.WebApp\obj\Debug\net9.0\GestaoDeEquipamento.WebApp.csproj.CoreCompileInputs.cache
+C:\Academia C#\Gestao-De-Equipamento\GestaoDeEquipamento.WebApp\obj\Debug\net9.0\GestaoDeEquipamento.WebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Academia C#\Gestao-De-Equipamento\GestaoDeEquipamento.WebApp\obj\Debug\net9.0\GestaoDeEquipamento.WebApp.RazorAssemblyInfo.cache
+C:\Academia C#\Gestao-De-Equipamento\GestaoDeEquipamento.WebApp\obj\Debug\net9.0\GestaoDeEquipamento.WebApp.RazorAssemblyInfo.cs
+C:\Academia C#\Gestao-De-Equipamento\GestaoDeEquipamento.WebApp\obj\Debug\net9.0\GestaoDeEquipamento.WebApp.sourcelink.json

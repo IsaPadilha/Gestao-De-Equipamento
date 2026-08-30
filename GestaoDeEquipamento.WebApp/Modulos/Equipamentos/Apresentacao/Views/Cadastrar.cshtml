@@ -5,7 +5,6 @@
     ViewBag.Titulo = "Cadastro de Equipamento";
 }
 
-
 <div class="row justify-content-start">
     <form class="col-lg-6" asp-action="Cadastrar" method="post">
         <div>
@@ -30,7 +29,7 @@
             <label class="form-label" asp-for="FabricanteId">Fabricante</label>
             <select class="form-select" asp-for="FabricanteId">
                 <option value="0">Selecione um fabricante</option>
-                @foreach (SelecionarFabricanteViewModel fabricante in Model.FabricantesDisponiveis!)
+                @foreach (SelecionarFabricanteViewModel fabricante in Model.FabricantesDisponiveis)
                 {
                     <option value="@fabricante.Id">@fabricante.Nome</option>
                 }
