@@ -7,7 +7,8 @@ public record ListarChamadoViewModel(
     string Titulo,
     string Descricao,
     string Equipamento,
-    DateTime DataAbertura
+    DateTime DataAbertura,
+    int DiasAberto
 );
 
 public record CadastrarChamadoViewModel(

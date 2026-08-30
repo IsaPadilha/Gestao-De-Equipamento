@@ -1,6 +1,7 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using GestaoDeEquipamento.WebApp.Modulos.Equipamentos.Dominio;
+using GestaoDeEquipamento.WebApp.Modulos.Chamados.Dominio;
 
 namespace GestaoDeEquipamento.WebApp.Compartilhado.Infraestrutura.Arquivos;
 
@@ -96,7 +97,6 @@ public sealed class ContextoJson
     {
         return
         Fabricantes.Count > 0 &&
-        Equipamentos.Count > 0 &&
-        Chamados.Count > 0;
+        Equipamentos.Count > 0;
     }
 }

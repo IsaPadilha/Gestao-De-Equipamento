@@ -25,12 +25,15 @@ public sealed class ChamadoController : Controller
 
         foreach (Chamado chamado in repositorioChamado.SelecionarTodos())
         {
+            int diasAberto = (DateTime.Now.Date - chamado.DataAbertura.Date).Days;
+
             viewModels.Add(new ListarChamadoViewModel(
                 chamado.Id,
                 chamado.Titulo,
                 chamado.Descricao,
                 chamado.Equipamento.Nome,
-                chamado.DataAbertura
+                chamado.DataAbertura,
+                diasAberto
             ));
         }
 
