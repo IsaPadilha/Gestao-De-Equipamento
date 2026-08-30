@@ -1,4 +1,4 @@
-using GestaoDeEquipamento.WebApp.Compartilhado.Apresesntacao;
+using GestaoDeEquipamento.WebApp.Compartilhado.Apresentacao;
 using GestaoDeEquipamento.WebApp.Compartilhado.Infraestrutura;
 
 var builder = WebApplication.CreateBuilder(args);

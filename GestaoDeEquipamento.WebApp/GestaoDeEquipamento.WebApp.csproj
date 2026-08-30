@@ -9,6 +9,10 @@
   <ItemGroup>
     <Content Remove="Compartilhado\Apresentacao\Views\Index.cshtml" />
     <Content Remove="Compartilhado\Apresentacao\Views\_Layout.cshtml" />
+    <Content Remove="Modulos\Chamados\Apresentacao\Views\Cadastrar.cshtml" />
+    <Content Remove="Modulos\Chamados\Apresentacao\Views\Editar.cshtml" />
+    <Content Remove="Modulos\Chamados\Apresentacao\Views\Excluir.cshtml" />
+    <Content Remove="Modulos\Chamados\Apresentacao\Views\Listar.cshtml" />
     <Content Remove="Modulos\Equipamentos\Apresentacao\Views\Cadastrar.cshtml" />
     <Content Remove="Modulos\Equipamentos\Apresentacao\Views\Editar.cshtml" />
     <Content Remove="Modulos\Equipamentos\Apresentacao\Views\Excluir.cshtml" />
@@ -22,6 +26,10 @@
   <ItemGroup>
     <Compile Include="Compartilhado\Apresentacao\Views\Index.cshtml" />
     <Compile Include="Compartilhado\Apresentacao\Views\_Layout.cshtml" />
+    <Compile Include="Modulos\Chamados\Apresentacao\Views\Cadastrar.cshtml" />
+    <Compile Include="Modulos\Chamados\Apresentacao\Views\Editar.cshtml" />
+    <Compile Include="Modulos\Chamados\Apresentacao\Views\Excluir.cshtml" />
+    <Compile Include="Modulos\Chamados\Apresentacao\Views\Listar.cshtml" />
     <Compile Include="Modulos\Equipamentos\Apresentacao\Views\Cadastrar.cshtml" />
     <Compile Include="Modulos\Equipamentos\Apresentacao\Views\Editar.cshtml" />
     <Compile Include="Modulos\Equipamentos\Apresentacao\Views\Excluir.cshtml" />
@@ -38,6 +46,8 @@
     <Folder Include="Compartilhado\Dominio\" />
     <Folder Include="Compartilhado\Infraestrutura\" />
     <Folder Include="Compartilhado\Infraestrutura\Arquivos\" />
+    <Folder Include="Modulos\Chamados\Dominio\" />
+    <Folder Include="Modulos\Chamados\Infraestrutura\" />
     <Folder Include="Modulos\Fabricantes\Dominio\" />
     <Folder Include="Modulos\Fabricantes\Infraestrutura\" />
   </ItemGroup>

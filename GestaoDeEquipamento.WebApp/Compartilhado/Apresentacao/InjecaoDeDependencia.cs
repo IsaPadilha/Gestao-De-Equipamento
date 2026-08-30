@@ -1,4 +1,4 @@
-namespace GestaoDeEquipamento.WebApp.Compartilhado.Apresesntacao;
+namespace GestaoDeEquipamento.WebApp.Compartilhado.Apresentacao;
 
 public static class InjecaoDeDependencia
 {

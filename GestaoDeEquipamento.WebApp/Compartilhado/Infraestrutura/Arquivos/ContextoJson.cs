@@ -10,6 +10,7 @@ public sealed class ContextoJson
 
     public List<Fabricante> Fabricantes { get; set; } = new List<Fabricante>();
     public List<Equipamento> Equipamentos { get; set; } = new List<Equipamento>();
+    public List<Chamado> Chamados { get; set; } = new List<Chamado>();
 
     public ContextoJson()
     {
@@ -66,6 +67,7 @@ public sealed class ContextoJson
     {
         Fabricantes = contexto.Fabricantes;
         Equipamentos = contexto.Equipamentos;
+        Chamados = contexto.Chamados;
     }
 
     public ContextoJson CarregarDadosPredefinidos()
@@ -94,6 +96,7 @@ public sealed class ContextoJson
     {
         return
         Fabricantes.Count > 0 &&
-        Equipamentos.Count > 0;
+        Equipamentos.Count > 0 &&
+        Chamados.Count > 0;
     }
 }
