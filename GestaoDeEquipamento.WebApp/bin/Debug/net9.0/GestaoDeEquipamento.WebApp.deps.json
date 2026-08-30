@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "GestaoDeEquipamento.WebApp/1.0.0": {
+        "runtime": {
+          "GestaoDeEquipamento.WebApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GestaoDeEquipamento.WebApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
