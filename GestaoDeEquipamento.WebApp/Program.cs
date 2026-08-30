@@ -1,5 +1,6 @@
 using GestaoDeEquipamento.WebApp.Compartilhado.Apresentacao;
 using GestaoDeEquipamento.WebApp.Compartilhado.Infraestrutura;
+using GestaoDeEquipamento.WebApp.Modulos.Chamados.Infraestrutura;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,9 @@ builder.Services.AdicionarCamadaDeInfraestrutura();
 
 // Configurar o MVC / Apresentação
 builder.Services.AdicionarCamadaDeApresentacao();
+
+
+builder.Services.AddScoped<RepositorioChamadoEmArquivo>();
 
 var app = builder.Build();
 

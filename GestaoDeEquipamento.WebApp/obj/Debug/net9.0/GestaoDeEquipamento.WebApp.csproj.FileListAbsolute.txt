@@ -28,3 +28,5 @@ C:\Academia C#\Gestao-De-Equipamento\GestaoDeEquipamento.WebApp\obj\Debug\net9.0
 C:\Academia C#\Gestao-De-Equipamento\GestaoDeEquipamento.WebApp\obj\Debug\net9.0\GestaoDeEquipamento.WebApp.pdb
 C:\Academia C#\Gestao-De-Equipamento\GestaoDeEquipamento.WebApp\obj\Debug\net9.0\GestaoDeEquipamento.WebApp.genruntimeconfig.cache
 C:\Academia C#\Gestao-De-Equipamento\GestaoDeEquipamento.WebApp\obj\Debug\net9.0\ref\GestaoDeEquipamento.WebApp.dll
+C:\Academia C#\Gestao-De-Equipamento\GestaoDeEquipamento.WebApp\bin\Debug\net9.0\GestaoDeEquipamento.WebApp.staticwebassets.runtime.json
+C:\Academia C#\Gestao-De-Equipamento\GestaoDeEquipamento.WebApp\obj\Debug\net9.0\compressed\ezx5t2exx5-aavzdkew9a.gz
