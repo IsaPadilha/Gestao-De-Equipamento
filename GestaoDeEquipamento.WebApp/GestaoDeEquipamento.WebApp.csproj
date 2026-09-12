@@ -7,13 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Compartilhado\Dominio\" />
-    <Folder Include="Compartilhado\Infraestrutura\" />
-    <Folder Include="Compartilhado\Infraestrutura\Arquivos\" />
-    <Folder Include="Modulos\Chamados\Dominio\" />
-    <Folder Include="Modulos\Chamados\Infraestrutura\" />
-    <Folder Include="Modulos\Fabricantes\Dominio\" />
-    <Folder Include="Modulos\Fabricantes\Infraestrutura\" />
+    <PackageReference Include="Dapper" Version="2.1.86" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.2" />
   </ItemGroup>
 
 </Project>
