@@ -5,7 +5,7 @@ using GestaoDeEquipamento.WebApp.Modulos.Chamados.Infraestrutura;
 var builder = WebApplication.CreateBuilder(args);
 
 // Configurar a infraestrutura (Arquivos, Banco de Dados, Logs, Cachês, etc...)
-builder.Services.AdicionarCamadaDeInfraestrutura();
+builder.Services.AdicionarCamadaDeInfraestrutura(builder.Configuration);
 
 // Configurar o MVC / Apresentação
 builder.Services.AdicionarCamadaDeApresentacao();

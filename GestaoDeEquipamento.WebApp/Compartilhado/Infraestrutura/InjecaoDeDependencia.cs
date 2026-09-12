@@ -7,8 +7,12 @@ namespace GestaoDeEquipamento.WebApp.Compartilhado.Infraestrutura;
 
 public static class InjecaoDeDependencia
 {
-    public static void AdicionarCamadaDeInfraestrutura(this IServiceCollection services)
+    public static void AdicionarCamadaDeInfraestrutura(
+        this IServiceCollection services,
+        IConfiguration configuration
+        )
     {
+        string connectionString = configuration.GetConnectionString("SqlServerLocalDB")!;
         services.AddScoped(services =>
         {
             ContextoJson contexto = new ContextoJson();
@@ -19,7 +23,11 @@ public static class InjecaoDeDependencia
         });
 
         // Configurar repositórios
-        services.AddScoped<IRepositorioFabricante, RepositorioFabricanteEmSql>();
+        services.AddScoped<IRepositorioFabricante>(_ =>
+        {
+            return new RepositorioFabricanteEmSql(connectionString);
+        });
+
         services.AddScoped<RepositorioEquipamentoEmArquivo>();
         services.AddScoped<RepositorioChamadoEmArquivo>();
     }
