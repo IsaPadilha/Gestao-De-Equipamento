@@ -17,7 +17,7 @@ public sealed class RepositorioFabricanteEmSql : IRepositorioFabricante
     {
         const string query =
             """
-            INSERT INTO dbo.TBFabricante (Nome, Email, Telefone)
+            INSERT INTO dbo.TBFabricantes (Nome, Email, Telefone)
             OUTPUT INSERTED.Id
             VALUES (@Nome, @Email, @Telefone)
             """;
@@ -31,7 +31,7 @@ public sealed class RepositorioFabricanteEmSql : IRepositorioFabricante
     {
         const string query =
             """
-            UPDATE dbo.TBFabricante
+            UPDATE dbo.TBFabricantes
             SET Nome = @Nome,
                 Email = @Email,
                 Telefone = @Telefone
@@ -53,7 +53,7 @@ public sealed class RepositorioFabricanteEmSql : IRepositorioFabricante
 
     public bool Excluir(int idSelecionado)
     {
-        const string query = "DELETE FROM dbo.TBFabricante WHERE Id = @Id";
+        const string query = "DELETE FROM dbo.TBFabricantes WHERE Id = @Id";
 
         using SqlConnection conexao = new(connectionString);
 
@@ -67,7 +67,7 @@ public sealed class RepositorioFabricanteEmSql : IRepositorioFabricante
         const string query =
             """
             SELECT Id, Nome, Email, Telefone
-            FROM dbo.TBFabricante
+            FROM dbo.TBFabricantes
             WHERE Id = @Id
             """;
 
@@ -82,7 +82,7 @@ public sealed class RepositorioFabricanteEmSql : IRepositorioFabricante
         const string query =
             """
             SELECT Id, Nome, Email, Telefone
-            FROM dbo.TBFabricante
+            FROM dbo.TBFabricantes
             ORDER BY Id
             """;
 
